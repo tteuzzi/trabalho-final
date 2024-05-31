@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+    background-color: #1a1a2e; /* Fundo azul escuro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white; 
+}
+
+#set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.drum {
+    background-color: #e94560;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.drum:active {
+    background-color: white;
+    color: #e94560; 
+}
+.drum_clicked {
+    background-color: white;
+    color: #e94560; 
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+}
